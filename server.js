@@ -2,7 +2,7 @@ const app = require('./middlewarer')
 const http = require('http').createServer(app);
 const io = require('socket.io')(http,{
 	cors:{
-		origins:['http://192.168.0.211:3000']
+		origins:['https://roomer-delta.vercel.app']
 	},
 	maxHttpBufferSize: 1e8
 })
