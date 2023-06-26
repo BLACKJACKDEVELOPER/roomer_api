@@ -1,5 +1,5 @@
 const mdb = require('mariadb')
-const server = "192.168.0.211"
+const server = "https://d8e0-110-164-64-243.ngrok-free.app/adminer/"
 const username = "root"
 const password = "lion4333"
 const database = "roomer"
