@@ -1,4 +1,4 @@
-const app = require('./middleware')
+const app = require('./middlewarer')
 const http = require('http').createServer(app);
 const io = require('socket.io')(http,{
 	cors:{
